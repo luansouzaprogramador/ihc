@@ -1,0 +1,64 @@
+# ==========================================
+# AMBIENTE VIRTUAL (Python venv)
+# ==========================================
+venv/
+env/
+ENV/
+.venv/
+
+# ==========================================
+# PYTHON / COMPILADOS
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# AMBIENTE DE DESENVOLVIMENTO / EDITORES
+# ==========================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm / IntelliJ)
+.idea/
+
+# Sistema Operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# ARQUIVOS DE DADOS E LOGS LOCAIS
+# ==========================================
+*.log
+*.sqlite3
+.env
+.ipynb_checkpoints/
+
+# Gráficos temporários gerados pelos scripts de teste (opcional)
+grafico*_*.png
